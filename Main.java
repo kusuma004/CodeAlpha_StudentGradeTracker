@@ -30,7 +30,7 @@ class Student
     }
     else if(marks>=70)
     {
-        return "c";
+        return "C";
     }
     else if(marks>=60)
     {
@@ -58,7 +58,7 @@ public class Main {
             System.out.println("1.Add Students");
             System.out.println("2.View all Students");
             System.out.println("3.Display grade summary");
-            System.out.println("4.Exist");
+            System.out.println("4.Exit");
             System.out.println("Enter your choice:");
             choice=sc.nextInt();
             sc.nextLine();
@@ -132,11 +132,11 @@ public class Main {
         {
             int marks=list.get(i).getMarks();
             total=total+marks;
-            if(marks>highest)
+            if(marks > highest)
             {
                 highest=marks;
             }
-            if(lowest > lowest)
+            if(marks < lowest)
             {
                 lowest=marks;
             }
