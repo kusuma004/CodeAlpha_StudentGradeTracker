@@ -37,4 +37,4 @@ The Student Grade Tracker is a console-based Java application that allows users 
    `java Main`
 
 ## Author
-CodeAlpha Java Programming Intern
+ Java Programming Intern
